@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    double speed, time, dist, m, cm, mm;
+    printf("Enter speed in km/h = ");
+    scanf("%lf", &speed);
+    printf("\n Enter time in hours = ");
+    scanf("%lf, &time);
+    dist = speed*time;
+    m = dist*1000.0;
+    cm = dist*100000.0;
+    mm = dist*1000000.0;
+    printf("\n --- Conversion Results --- \n");
+    printf("Distance in meters = %.2lf m\n ", m);
+    printf("Distance in centimeters = %.2lf cm\n ", cm);
+    printf("Distance in millimeters = %.2lf mm\n", mm);
+    return 0;
+}
