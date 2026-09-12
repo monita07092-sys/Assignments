@@ -5,7 +5,7 @@ int main()
     printf("Enter speed in km/h = ");
     scanf("%lf", &speed);
     printf("\n Enter time in hours = ");
-    scanf("%lf, &time);
+    scanf("%lf", &time);
     dist = speed*time;
     m = dist*1000.0;
     cm = dist*100000.0;
